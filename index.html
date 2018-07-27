@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <head>
-    <title>Christer Edwards Resume | System Administrator / Instructor</title>
+    <title>Christer Edwards | Architect | Instructor | Author</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     
-    <meta name="keywords" content="christer,edwards,resume,sysadmin,system,administrator,rhce,rhct,rhcx,rhci,instructor,GNOME,teaching,bash,perl,php,mysql,git,svn,salt,python" />
-    <meta name="description" content="Christer Edwards is a skilled self-starter with a passion for Open Source technologies. He is passionate about providing users and businesses with trusted, stable services and technologies." />
+    <meta name="keywords" content="christer,edwards,resume,sysadmin,system,administrator,rhce,rhct,rhcx,rhci,instructor,GNOME,teaching,bash,perl,php,mysql,git,svn,salt,python,hubblestack,hubble,security,compliance,architect" />
+    <meta name="description" content="Christer Edwards is a skilled self-starter with a passion for Open-Source technologies. He is passionate about providing users and businesses with trusted, stable services and technologies." />
     
     <link rel="stylesheet" type="text/css" href="css/reset-fonts-grids.css" media="all" />
     <link rel="stylesheet" type="text/css" href="css/resume.css" media="all" />
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <script src="js/resume.js"></script>
 </head>
 <body>
@@ -19,22 +19,17 @@
 
         <!-- header -->
     	<div id="header">
-    		<div class="yui-gc">
+            <img src="profile_pic.jpg" alt="Christer Edwards" height="186" width="186" align="left">
+            <div class="yui-gc">
                 <!-- title / subtitle -->
-    			<div class="yui-u first">
+                <div class="yui-u first" align="center">
     				<h1>Christer Edwards</h1>
-    				<h2>System Administrator / Instructor</h2>
+                    <br/>
+                    <br/>
+    				<h2>Architect | Instructor | Author</h2>
     			</div>
     
                 <!-- contact info -->
-    			<div class="yui-u">
-    				<div class="contact-info">
-    				    	<h3><a id="pdf" href="Christer-Edwards-Resume.pdf">Download PDF</a></h3>
-    					<h3><a href="mailto:christer.edwards@gmail.com">christer.edwards@gmail.com</a></h3>
-    					<h3>(801) 200-4483</h3>
-    				</div>
-    			</div>
-    
     		</div>
     	</div>
     
@@ -49,7 +44,7 @@
     					</div>
     					<div class="yui-u">
     						<p class="enlarge">
-    							Implement trusted technologies to fulfill unique business needs.
+    							Design innovative solutions to fulfill unique business needs.
     						</p>
     					</div>
     				</div>
@@ -61,16 +56,16 @@
                         </div>
                         <div class="yui-u">
                         <div class="talent">
-                            <h2>Engineering</h2>
-                            <p>Detailed understanding of Linux and BSD Operating Systems, network services and security. Includes Red Hat, Debian, FreeBSD (and variants).</p>
+                            <h2>Architect</h2>
+                            <p>Detailed understanding of Linux/UNIX operating systems, internet services, automation and security best-practices.</p>
                         </div>
                         <div class="talent">
-                            <h2>Instruction</h2>
-                            <p>Develop and deliver professional training material and documentation for Linux, PHP and MySQL.</p>
+                            <h2>Instructor</h2>
+                            <p>Proven ability to communicate complex new ideas in easy to understand and applicable ways.</p>
                         </div>
                         <div class="talent">
-                            <h2>Project Management</h2>
-                            <p>Ability to lead and manage technical and non-technical projects in team and independent situations.</p>
+                            <h2>Author</h2>
+                            <p>Experience with publishing documentation, creating training material, writing instructional blogs and technical books.</p>
                         </div>
                         </div>
     				</div>
@@ -85,16 +80,19 @@
                                 <li>Linux</li>
                                 <li>FreeBSD</li>
                                 <li>SaltStack</li>
+                                <li>HubbleStack</li>
                             </ul>
                             <ul class="talent">
-                                <li>HAProxy</li>
-                                <li>SQL</li>
-                                <li>BIND</li>
-                            </ul>
-                            <ul class="talent">
-                                <li>Apache</li>
                                 <li>nginx</li>
-                                <li>Puppet</li>
+                                <li>git</li>
+                                <li>Python</li>
+                                <li>Jenkins</li>
+                            </ul>
+                            <ul class="talent">
+                                <li>CDN</li>
+                                <li>Apache</li>
+                                <li>SMTP</li>
+                                <li>NTP</li>
                             </ul>
                         </div>
     				</div>
@@ -108,49 +106,56 @@
     					<div class="yui-u">
                             <div class="job 1">
                             <h2>Adobe Systems</h2>
-                            <h3>System Administrator</h3>
-                            <h4>2012-current</h4>
-                                <p>Member of the SiteCatalyst team, Omniture business unit.
-                                <br/>Maintain a 1600:1 server-to-admin ratio.
-                                <br/>Work on system efficiency and performance, including custom kernel tuning.
-                                <br/>Support a 24x7, low-latency, global infrastructure.
-                                <br/>Support worldwide IP Anycast DNS solutions.</p>
+                            <h3>Computer Scientist, Software Developer - Adobe DX (TechOps)</h3>
+                            <h4>2014-current</h4>
+                            <p>Adobe "Salt Master"
+                            <br/>Architect of <a target="_blank" href="https://hubblestack.io">Hubble: Open-Source Security Monitoring</a>.
+				                    <br/>Maintainer of low-latency, global NTP service supporting 100,000+ devices.
+				                    <br/>Maintainer of internal global CDN for artifact and source code distribution.
+				                    <br/>Adobe Technology Advisory Group (TAG) volunteer and contributor.
+				                    <br/>Adobe TechOps "TechTalk" vetran presenter.
+                            </div>
+                            <div class="job 2">
+                            <h2>Adobe Systems</h2>
+                            <h3>SRE, Adobe Analytics - Adobe DX (TechOps)</h3>
+                            <h4>2012-2014</h4>
+                            <br/>Maintain thousands of servers across dozens of global datacenters.
+                            <br/>Maintain custom-built Linux kernel tuned for performance and stability.
+				                    <br/>Support Adobe Analytics product focusing on low-latency and availability.</p>
     						</div>
-    						<div class="job 2">
-    							<h2>Beyond Oblivion</h2>
-    							<h3>Cloud Infrastructure Engineer</h3>
-    							<h4>2011-2012</h4>
-    							    <p>Work on Cloud Infrastructure team for Beyond Oblivion streaming music service.
-                               	    <br/>Designed HA infrastructure with load balancing and SSL termination solutions.
-                               	    <br/>Work closely with QA to validate and improve service performance.
-                               	    <br/>Maintain 600TB distributed filesystem using MooseFS.
-                               	    <br/>Migrated remote execution and state management solution from Puppet to Salt Stack.</p>
-    						</div>
-    
     						<div class="job 3">
-    							<h2>University of Utah</h2>
-    							<h3>Instructor - Technology Education / School of Computing</h3>
-    							<h4>2010-current</h4>
-                                    <p>Teach Enterprise Linux Network Services, Security and Troubleshooting.
-                                    <br/>Teach fundamentals of web-programming with PHP Level 1 and Level 2.
-                                    <br/>Teach fundamentals of database use and design with MySQL Level 1 and Level 2.
-                                    <br/>Teach fundamentals of database driven websites combined technologies crash-course.
-                                    <br/>Teach fundamentals of jQuery, Level 1.
-                                    <br/>Authored or contributed to all class course material.</p>
+                            <h2>Beyond Oblivion</h2>
+                            <h3>Cloud Infrastructure Engineer</h3>
+                            <h4>2011-2012</h4>
+                            <p>Work on Cloud Infrastructure team for Beyond Oblivion streaming music service.
+                            <br/>Design HA infrastructure with load balancing and SSL termination solutions.
+                            <br/>Work closely with QA to validate and improve service performance.
+                            <br/>Maintain 600TB distributed filesystem.
+                            <br/>Migrate remote execution and state management solution from Puppet to SaltStack.</p>
     						</div>
-    
     						<div class="job 4">
-    							<h2>The GNOME Foundation</h2>
-    							<h3>System Administrator</h3>
-    							<h4>2010-2011</h4>
-    							<p>Maintain infrastructure for GNOME Desktop Environment and related projects.
-                                    <br/>Act as point of contact between Sysadmin team and development projects.
-                                    <br/>Manage project timelines, goals and requirements with volunteers Sysadmins.
-                                    <br/>Write and maintain puppet modules for configuration management.
-                                    <br/>Additional responsibilities include accounts management, mailing lists, web, email, DNS, etc.</p>
+    						<h2>University of Utah</h2>
+    						<h3>Instructor - Technology Education / School of Computing</h3>
+    						<h4>2010-2013</h4>
+                            <p>Teach Enterprise Linux Network Services, Security and Troubleshooting.
+                            <br/>Teach fundamentals of web-programming with PHP Level 1 and Level 2.
+                            <br/>Teach fundamentals of database use and design with MySQL Level 1 and Level 2.
+                            <br/>Teach fundamentals of database driven websites combined technologies crash-course.
+                            <br/>Teach fundamentals of jQuery, Level 1.
+                            <br/>(Authored or contributed to all class course material.)</p>
+    						</div>
+    						<div class="job 5">
+    						<h2>The GNOME Foundation</h2>
+    						<h3>System Administrator</h3>
+    						<h4>2010-2011</h4>
+    						<p>Maintain infrastructure for GNOME Desktop Environment and related projects.
+                            <br/>Act as point of contact between Sysadmin team and development projects.
+                            <br/>Manage project timelines, goals and requirements with volunteers Sysadmins.
+                            <br/>Write and maintain puppet modules for configuration management.
+                            <br/>Additional responsibilities include accounts management, mailing lists, web, email, DNS, etc.</p>
     						</div>
     
-    						<div class="job 5">
+    						<div class="job 6">
     							<h2>Partnet, Inc.</h2>
     							<h3>System Administrator</h3>
     							<h4>2008-2011</h4>
@@ -160,13 +165,13 @@
                                     <br/>Maintain IT Level-1 Department of Defense Clearance (top-secret).</p>
     						</div>
     
-    						<div class="job 6">
+    						<div class="job 7">
     							<h2>Guru Labs</h2>
     							<h3>Linux Instructor</h3>
     							<h4>2007-2008</h4>
     						    	<p>Teach Linux Fundamentals, Administration, Network Services and Security.
                                 	<br/>Write and test course content including lecture, technology demonstrations and hands-on labs.
-                                	<br/>Deliver certification exams for Red Hat Certified Technicians (RHCT)
+                                	<br/>Deliver certification exams for Red Hat Certified System Administrators (RHCSA)
                                 	<br/>Deliver certification exams for Red Hat Certified Engineers (RHCE).</p>
     						</div>
     					</div>
@@ -178,7 +183,9 @@
                         	<h2>Community Contributions</h2>
                         </div>
                         <div class="yui-u">
-                            <h2>GNOME Foundation &mdash; Volunteer Sysadmin Team</h2>
+                            <h2>Architect of <a target="_blank" href="https://hubblestack.io">Hubble: Open-Source Security Monitoring</a>.
+                            <h3>2015 &mdash; current</h3>
+                            <h2><a target="_blank" href="http://www.freshports.org/search.php?stype=maintainer&method=exact&query=christer.edwards@gmail.com">FreeBSD port maintainer</a></h2>
                             <h3>2010 &mdash; current</h3>
                             <h2>Ubuntu Utah Community Team Founder / Team Lead</h2>
                             <h3>2005 &mdash; 2011</h3>
@@ -186,8 +193,6 @@
                             <h3>2006 &mdash; 2008</h3>
                             <h2>Ubuntu Developer Summit &mdash; 2007</h2>
                             <h3>Canonical Sponsored Community Representative</h3>
-                            <!--<h2>Ubuntu Tutorials</h2>
-                            <h3>Provide regular tutorial-based educational content via <a href="http://ubuntu-tutorials.com" title="Ubuntu Tutorials">Ubuntu Tutorials</a></h3>-->
                         </div>
                     </div>
     
@@ -197,11 +202,30 @@
     						<h2>Presentations</h2>
     					</div>
     					<div class="yui-u presentations">
-                            <h2>SCALE (Southern California Linux Expo) &mdash; 2013</h2>
+                            <h2>devopsdays Boise 2018</h2>
+                            <h3>Open-Source Security with HubbleStack<h3>
+                            <h2>SCaLE (So-Cal Linux Expo) &mdash; 2018</h2>
+                            <h3>Security & Compliance Monitoring w/ HubbleStack</h3>
+                            <h2>SaltConf17 &mdash; 2017</h2>
+                            <h3>Linux Security & Compliance Auditing with HubbleStack</h3>
+                            <h2>SAINTCON &mdash; 2017</h2>
+                            <h3>Linux Security & Compliance Auditing with HubbleStack</h3>
+                            <h2>OpenWest 2017</h2>
+                            <h3>Linux Security & Compliance Auditing with HubbleStack</h3>
+                            <h2>SCaLE (So-Cal Linux Expo) &mdash; 2017</h2>
+                            <h3>Linux Security & Compliance Auditing with HubbleStack</h3>
+                            <h2>SCaLE (So-Cal Linux Expo) &mdash; 2016</h2>
+                            <h3>Ops tools for hardening your infrastructure</h3>
+                            <h2>SaltConf16 &mdash; 2016</h2>
+                            <h3>SaltStack for Ops Security, Compliance and Infrastructure Hardening</h3>
+                            <h3>Integrating a CMDB with SaltStack for More Dynamic System Control</h3>
+                            <h2>SaltConf14 &mdash; 2014</h2>
+                            <h3>SaltStack for LAMP stack deployment lab</h3>
+                            <h2>SCaLE (So-Cal Linux Expo) &mdash; 2013</h2>
                             <h3>Automated Cloud Provisioning with Salt Cloud</h3>
-                            <h2>SCALE (Southern California Linux Expo) &mdash; 2012</h2>
+                            <h2>SCaLE (So-Cal Linux Expo) &mdash; 2012</h2>
                             <h3>Salt: Remote Execution and Configuration Management</h3>
-                            <h2>SCALE (Southern California Linux Expo) &mdash; 2011</h2>
+                            <h2>SCaLE (So-Cal Linux Expo) &mdash; 2011</h2>
                             <h3>OS Level Virtualization : FreeBSD Jails</h3>
                             <h2>Utah Open Source Conference &mdash; 2010</h2>
                             <h3>OS Level Virtualization : FreeBSD Jails</h3>
@@ -226,18 +250,24 @@
                         <h2>Publications</h2>
     			    </div>
     			    <div class="yui-u articles">
-                        <h2>Packt Publishing - Commissioned Articles</h2>
-                        <h3><a href="http://www.packtpub.com/article/ubuntu-server-and-wordpress-in-15-minutes-flat">Ubuntu Server and Wordpress in 15min Flat</a></h3>
-                        <h3><a href="http://www.packtpub.com/article/securing-network-services-with-freebsd-jails">Securing Network Services with FreeBSD Jails</a></h3>
-                        <h3><a href="http://www.packtpub.com/article/securely-encrypt-removable-media-with-ubuntu">Security Encrypt Removable Media with Ubuntu</a></h3>
-                        <h3><a href="http://www.packtpub.com/article/network-based-ubuntu-installations">Network Based Ubuntu Installations</a></h3>
-                        <h3><a href="http://www.packtpub.com/article/what-is-new-in-ubuntu-9.10-karmic-koala">What's New In Ubuntu 9.10 "Karmic Koala"</a></h3>
-                        <h3><a href="http://www.packtpub.com/article/ubuntu-9.10-how-to-upgrade">Ubuntu 9.10: How To Upgrade</a></h3>
-                        <h3><a href="http://www.packtpub.com/article/create-local-ubuntu-repository-using-apt-mirror-apt-cacher">Create a Local Ubuntu Repository using Apt-Mirror and Apt-Cacher</a></h3>
-                        <h3><a href="http://www.packtpub.com/article/five-years-of-ubuntu">Five Years of Ubuntu</a></h3>
-                        <h3><a href="http://www.packtpub.com/article/ubuntu-user-interface-tweaks">Ubuntu User Interface Tweaks</a></h3>
-                        <h3><a href="http://www.packtpub.com/article/install-gnome-shell-on-ubuntu-karmic-koala">Install GNOME-Shell on Ubuntu 9.10 "Karmic Koala"</a></h3>
-                        <h3><a href="http://www.packtpub.com/article/folding-at-home-on-ubuntu-cancer-research-made-easy">Folding @ Home on Ubuntu: Cancer Research Made Easy</a></h3>
+                        <h2>Books</h2>
+                        <h3><a target="_blank" href="https://www.packtpub.com/complete-guide-to-making-the-switch-to-ubuntu/book">Instant Ubuntu</a></h3>
+    			    </div>
+                    <br/>
+                    <br/>
+    			    <div class="yui-u articles">
+                        <h2>Commissioned Articles</h2>
+                        <h3><a target="_blank" href="https://www.packtpub.com/article/ubuntu-server-and-wordpress-in-15-minutes-flat">Ubuntu Server and Wordpress in 15min Flat</a></h3>
+                        <h3><a target="_blank" href="https://www.packtpub.com/article/securing-network-services-with-freebsd-jails">Securing Network Services with FreeBSD Jails</a></h3>
+                        <h3><a target="_blank" href="https://www.packtpub.com/article/securely-encrypt-removable-media-with-ubuntu">Security Encrypt Removable Media with Ubuntu</a></h3>
+                        <h3><a target="_blank" href="https://www.packtpub.com/article/network-based-ubuntu-installations">Network Based Ubuntu Installations</a></h3>
+                        <h3><a target="_blank" href="https://www.packtpub.com/article/what-is-new-in-ubuntu-9.10-karmic-koala">What's New In Ubuntu 9.10 "Karmic Koala"</a></h3>
+                        <h3><a target="_blank" href="https://www.packtpub.com/article/ubuntu-9.10-how-to-upgrade">Ubuntu 9.10: How To Upgrade</a></h3>
+                        <h3><a target="_blank" href="https://www.packtpub.com/article/create-local-ubuntu-repository-using-apt-mirror-apt-cacher">Create a Local Ubuntu Repository using Apt-Mirror and Apt-Cacher</a></h3>
+                        <h3><a target="_blank" href="https://www.packtpub.com/article/five-years-of-ubuntu">Five Years of Ubuntu</a></h3>
+                        <h3><a target="_blank" href="https://www.packtpub.com/article/ubuntu-user-interface-tweaks">Ubuntu User Interface Tweaks</a></h3>
+                        <h3><a target="_blank" href="https://www.packtpub.com/article/install-gnome-shell-on-ubuntu-karmic-koala">Install GNOME-Shell on Ubuntu 9.10 "Karmic Koala"</a></h3>
+                        <h3><a target="_blank" href="https://www.packtpub.com/article/folding-at-home-on-ubuntu-cancer-research-made-easy">Folding @ Home on Ubuntu: Cancer Research Made Easy</a></h3>
                     </div>
                 </div>
 
@@ -247,12 +277,14 @@
                         <h2>Certifications</h2>
     			    </div>
     			    <div class="yui-u">
+                        <h2>SaltStack Certified Engineer</h2>
+                        <h3>SSC ID: 0x4169B221 (<a target="_blank" href="https://ssc.saltstack.com">ssc.saltstack.com</a>)</h3>
                         <h2>Red Hat SELinux Policy Administration</h2>
-                        <h3><a href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=100-007-418">100-007-418</a></h3>
-                        <h2>Red Hat Certified Engineer</h2>
-                        <h3><a href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=805007509125599&amp;verify=Verify">805007509125599</a></h3>
-                        <h2>Red Hat Certified Technician</h2>
-                        <h3><a href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=605007966612538&amp;verify=Verify">605007966612538</a></h3>
+                        <h3><a target="_blank" href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=100-007-418">100-007-418</a></h3>
+                        <h2>Red Hat Certified Engineer (RHEL5, RHEL6)</h2>
+                        <h3><a target="_blank" href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=805007509125599&amp;verify=Verify">805007509125599</a></h3>
+                        <h2>Red Hat Certified Technician (RHEL5, RHEL6)</h2>
+                        <h3><a target="_blank" href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=605007966612538&amp;verify=Verify">605007966612538</a></h3>
                     </div>
                 </div>
     
@@ -282,23 +314,10 @@
             </div>
     	</div>
         <div id="footer">
-            <p>Christer Edwards &mdash; <a href="mailto:christer.edwards@gmail.com">christer.edwards@gmail.com</a> &mdash; (801) 200-4483</p>
+	    Christer Edwards &mdash; <a href="mailto:christer.edwards+resume@gmail.com">christer.edwards@gmail.com</a> &mdash; (385) 404-1337
+      <!--<a id="pdf" align="center" target="_blank" href="Christer-Edwards-Resume.pdf">Download PDF</a>-->
         </div>
     </div>
 </div>
-<!-- Start of StatCounter Code for Default Guide -->
-<script type="text/javascript">
-var sc_project=1763457; 
-var sc_invisible=1; 
-var sc_security="08411e72"; 
-</script>
-<script type="text/javascript"
-src="http://www.statcounter.com/counter/counter.js"></script>
-<noscript><div class="statcounter"><a title="hits counter"
-href="http://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="http://c.statcounter.com/1763457/0/08411e72/1/"
-alt="hits counter"></a></div></noscript>
-<!-- End of StatCounter Code for Default Guide -->
 </body>
 </html>
