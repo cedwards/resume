@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
 <channel>
-  <title>ROR Sitemap for http://cedwards.org/</title>
-  <link>http://cedwards.org/</link>
+  <title>ROR Sitemap for https://cedwards.org</title>
+  <link>https://cedwards.org</link>
 
 <item>
-     <link>http://cedwards.org/</link>
-     <title>Christer Edwards Resume | System Administrator / Instructor</title>
+     <link>https://cedwards.org</link>
+     <title>Christer Edwards : Architect | Instructor | Author</title>
      <description>Christer Edwards is a skilled self-starter with a passion for Open Source technologies. He is passionate about providing users and businesses with trusted, stable services and technologies.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>0</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://cedwards.org/Christer-Edwards-Resume.pdf</link>
+     <link>https://cedwards.org/Christer-Edwards-Resume.pdf</link>
      <title></title>
      
      <ror:updatePeriod></ror:updatePeriod>
@@ -22,4 +22,3 @@
 </item>
 </channel>
 </rss>
-  
